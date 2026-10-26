@@ -1,0 +1,9 @@
+{
+  "source_repository": "https://github.com/zengchuang-hw/OmniRSI",
+  "source_revision": "fee17dcbe697c5b0d112849e33fcda8b142e0d52",
+  "source_branch": "codex/inferrsi-codex-plugin",
+  "marketplace_name": "inferrsi-preview",
+  "plugin_version": "0.1.0",
+  "runtime_content_sha256": "9e936bae8499c4ee6ac5bb0090c46b23f8a2cbb341291b573b271fcd2357da1b",
+  "build_command": "python tools/build_codex_plugin.py --output <fresh-directory> --marketplace-name inferrsi-preview"
+}

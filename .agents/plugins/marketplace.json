@@ -1,0 +1,20 @@
+{
+  "name": "inferrsi-preview",
+  "interface": {
+    "displayName": "InferRSI preview"
+  },
+  "plugins": [
+    {
+      "name": "inferrsi",
+      "source": {
+        "source": "local",
+        "path": "./plugins/inferrsi"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
